@@ -1,0 +1,9 @@
+.button_wrapper{
+    background-image: linear-gradient(to bottom, #009beb, #0285e6);
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    
+    cursor: pointer;
+}

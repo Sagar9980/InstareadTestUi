@@ -1,0 +1,36 @@
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 60px 0px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin: 10px 0px;
+    color: #8f95a3;
+    cursor: pointer;
+}
+
+h4, h2{
+    margin: 10px 0px;  
+}
+.column__apart{
+    justify-content: space-between;
+}
+
+.social__icons{
+    margin-bottom: 20px;
+}
+
+.social__icons > svg{
+    background-color:#0285e6;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+}

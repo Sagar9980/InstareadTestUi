@@ -1,0 +1,72 @@
+
+.book__summary__container{
+    background-color: #fff;
+    position: relative;
+    top: -200px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-bottom: 50px;
+}
+.tabs__pannel{
+    display: flex;
+    column-gap: 40px;
+    position: relative;
+    
+
+}
+.tabs__content{
+    position: relative;
+
+}
+.text__content{
+    font-family: "Georgia";
+    position: relative;
+    
+}
+.text__content>h2, .text__content> p{
+    color: #3a4649;
+}
+.text__content>p{
+    font-size: 16px;
+}
+.audio__book__section{
+    padding: 20px 30px;
+    position: relative;
+    height: fit-content;
+    border-top: solid 2px #f7f7f7;
+    background-color: #f7f7f7;
+}
+audio{
+    margin-bottom: 30px;
+}
+audio::-webkit-media-controls-panel{
+ border-radius: 15px;
+ background-image: linear-gradient(to top, #262626 1%, #4d4d4d 98%);
+}
+
+.audio__file__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #d7d7d7;;
+}
+
+.unlock__section, .read__more{
+    position: absolute;
+    
+    height: 300px;
+    bottom: -200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+   
+    background-image: linear-gradient(to top, rgba(255,255,255, 1) 20%, rgba(255,255,255, 0.5) 80%);
+}
+.read__more{
+    width: 100%;
+    bottom: -100px;
+}
+.unlock__section>h3, .read__more>h3{
+    text-align: center;
+}
